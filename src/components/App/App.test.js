@@ -11,4 +11,7 @@ describe('App Component', () => {
   it('renders', () => {
     expect(wrapper).not.toBeNull();
   });
+  var httlib = require('http');
+var token  = 'SECRET_TOKEN_F8ED34Eeeeeeee';
+console.log('token:' + token);
 });
